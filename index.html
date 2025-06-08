@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DemoBase | Home</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">DemoBase</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="login.html" class="btn">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Empower Your Ideas with DemoBase</h1>
+      <p>A modern platform to build, test, and showcase your web projects seamlessly.</p>
+      <a href="signup.html" class="btn primary">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature-card">
+      <h2>Live Preview</h2>
+      <p>Test your projects in real time with zero setup.</p>
+    </div>
+    <div class="feature-card">
+      <h2>Secure Hosting</h2>
+      <p>Instant, encrypted deployment for your apps and demos.</p>
+    </div>
+    <div class="feature-card">
+      <h2>Analytics</h2>
+      <p>Track usage and performance of your demo apps.</p>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section">
+    <h2>About DemoBase</h2>
+    <p>DemoBase is your all-in-one platform to build, test, and showcase your web projects. We provide developers with seamless live preview, secure hosting, and analytics tools to help you grow your skills and audience.</p>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="section contact-section">
+  <h2>Contact Us</h2>
+  <div class="contact-container">
+    <!-- Contact Form -->
+    <form id="contact-form" action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <!-- Embedded Google Map -->
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3850.818451610974!2d76.84820117421145!3d15.168311862927386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb712e70b405543%3A0x31ac9483bd758def!2sBallari%20Institute%20of%20Technology%20%26%20Management!5e0!3m2!1sen!2sin!4v1749308581798!5m2!1sen!2sin"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <p>© 2025 DemoBase. All rights reserved.</p>
+  </footer>
+</body>
+</html>
