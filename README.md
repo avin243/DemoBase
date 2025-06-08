@@ -1,7 +1,7 @@
 # Prerequisites
 Make sure you have installed:
 
-1.XAMPP ✅
+1.XAMPP 
 (It includes Apache server, PHP, and MySQL)
 
 # Step-by-Step Instructions
