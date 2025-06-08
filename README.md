@@ -40,13 +40,13 @@ Open your browser and go to:
 Open a browser and go to:
 
 Sign Up Page:
-http://localhost/DemoBaseWebsite/signup.html
+http://localhost/DemoBase/signup.html
 
 Log In Page:
-http://localhost/DemoBaseWebsite/login.html
+http://localhost/DemoBase/login.html
 
 Homepage (after login):
-http://localhost/DemoBaseWebsite/index.html
+http://localhost/DemoBase/index.html
 
 # How It Works:
 1. Signup form → sends data to signup.php → stores in MySQL.
