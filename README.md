@@ -22,7 +22,7 @@ C:\xampp\htdocs\DemoBase\
 
 3. Set Up the Database
 Open your browser and go to:
-👉 http://localhost/phpmyadmin
+ http://localhost/phpmyadmin
 
 1. Click “New” from the sidebar.
 2. Enter demobase as the database name and click “Create”.
